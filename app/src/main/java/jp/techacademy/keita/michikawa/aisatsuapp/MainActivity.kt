@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.button1.text = "ボタン"
+        binding.button1.text = "時刻設定"
         binding.button1.setOnClickListener(this)
     }
 
